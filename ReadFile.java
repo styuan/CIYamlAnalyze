@@ -25,7 +25,7 @@ import org.yaml.snakeyaml.constructor.SafeConstructor;
 
 public class ReadFile {
 	private Map<String, Steps> stepMap = new HashMap<String, Steps>();               //Yaml文件解析出来的step列表
-	private List<String> sortSteps = new ArrayList<String>();						 //排序之后的step列表，不包含step详细信息
+	private List<String> sortSteps = new ArrayList<String>();			 //排序之后的step列表，不包含step详细信息
 	private Map<String, List<String>> relyMap = new HashMap<String, List<String>>(); //以step为key，依赖step的step list为value的map
 
 	/**
